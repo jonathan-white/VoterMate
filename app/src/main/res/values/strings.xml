@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">VoterMate</string>
+    <string name="federal">Federal</string>
+    <string name="state">State</string>
+    <string name="local">Local</string>
+</resources>
