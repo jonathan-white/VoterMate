@@ -22,14 +22,14 @@ public class MainActivity extends AppCompatActivity {
         });
 
         View state = findViewById(R.id.state_button);
-        federal.setOnClickListener(v -> {
+        state.setOnClickListener(v -> {
             Intent intent = new Intent(getApplicationContext(), VoteActivity.class);
             intent.putExtra("EXTRA_TEXT","State");
             startActivity(intent);
         });
 
         View local = findViewById(R.id.local_button);
-        federal.setOnClickListener(v -> {
+        local.setOnClickListener(v -> {
             Intent intent = new Intent(getApplicationContext(), VoteActivity.class);
             intent.putExtra("EXTRA_TEXT","Local");
             startActivity(intent);
